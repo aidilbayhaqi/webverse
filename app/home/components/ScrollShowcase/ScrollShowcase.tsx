@@ -15,13 +15,13 @@ const cases: ShowcaseCase[] = [
   {
     id: 0,
     icon: FiGlobe,
-    title: "AI Website Assistant",
+    title: "Pembuatan Website Modern",
     description:
-      "AI membantu menjawab pertanyaan pengunjung website secara otomatis dan mengarahkan mereka ke layanan yang tepat.",
+      "Hadirkan bisnis Anda di dunia digital tanpa ribet. Kami sediakan solusi end-to-end pembuatan website yang modern, aman, SEO-friendly, dan siap pakai untuk mengembangkan usaha Anda.",
     image: "/ai-chat.png",
     testimonial: {
       quote:
-        "AI ini membuat website kami aktif 24 jam dan jauh lebih responsif.",
+        "Prosesnya sangat cepat dan tim sangat mengerti kebutuhan bisnis kami. Hasil websitenya modern dan mudah dikelola!",
       author: "Andi Pratama",
       role: "Founder, RetailHub",
     },
@@ -29,13 +29,13 @@ const cases: ShowcaseCase[] = [
   {
     id: 1,
     icon: FiMessageCircle,
-    title: "AI Chatbot Automation",
+    title: "Smart AI Chatbot",
     description:
-      "Chatbot AI melayani customer melalui chat dengan bahasa natural seperti customer service manusia.",
+      "Bukan sekadar auto-reply biasa. Berbekal teknologi kecerdasan buatan, chatbot kami memahami konteks percakapan pelanggan dan memberikan solusi yang tepat layaknya Customer Service profesional terbaik Anda.",
     image: "/property-ai.png",
     testimonial: {
       quote:
-        "Customer kami tidak menyadari ini AI karena percakapannya sangat natural.",
+        "AI ini bukan cuma membalas dengan template, tapi benar-benar bisa merekomendasikan produk sesuai kebutuhan spesifik klien kami dengan sangat akurat.",
       author: "Dewi Lestari",
       role: "Head of Sales, PropertyPro",
     },
@@ -43,13 +43,13 @@ const cases: ShowcaseCase[] = [
   {
     id: 2,
     icon: FiBarChart2,
-    title: "AI Analytics & Dashboard",
+    title: "Smart CRM & ERP System",
     description:
-      "AI mencatat interaksi, menganalisis data, dan menyajikan insight bisnis secara real-time.",
+      "Sistem kami mengotomatisasi pencatatan interaksi pelanggan dan arus kerja internal, memastikan tidak ada data yang terlewat dan operasional tetap berjalan mulus.",
     image: "/edukasi-ai.png",
     testimonial: {
       quote:
-        "Keputusan bisnis jadi lebih cepat karena data langsung tersaji.",
+        "Sistem ini benar-benar merapikan administrasi kami. Laporan bulanan yang biasanya butuh berhari-hari, kini bisa selesai secara otomatis dalam hitungan detik.",
       author: "Budi Santoso",
       role: "Operations Manager, EduTech",
     },

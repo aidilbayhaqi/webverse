@@ -21,10 +21,10 @@ export default function AboutDescription() {
 
   return (
     <section className="w-full py-28 bg-black text-white">
-      <div className="max-w-7xl mx-auto px-8 text-center">
+      <div className="max-w-7xl mx-auto px-8 text-center reveal" data-reveal='up'>
 
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6" >
           Apa itu <span className="text-green-400">Webverse?</span>
         </h2>
 

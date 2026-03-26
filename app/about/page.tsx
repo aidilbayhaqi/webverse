@@ -72,20 +72,24 @@
 // };
 
 // export default Page;
-
+'use client'
 import Image from "next/image";
 import Navbar from "../layout/navbar";
-import ComparisonSection from "./aboutComponents/ComparasionAbout";
-import VideoSlider from "./aboutComponents/VideoAbout";
-import AboutSolution from "./aboutComponents/AboutSolution";
-import AboutStats from "./aboutComponents/AboutStats";
+import ComparisonSection from "./components/ComparasionAbout";
+import VideoSlider from "../home/components/aboutHome/VideoAbout";
+import AboutSolution from "./components/AboutSolution";
+import AboutStats from "./components/AboutStats";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiArrowRight } from "react-icons/fi";
-import FeaturesSection from "./aboutComponents/FeatureSection";
-import AboutDescription from "./aboutComponents/AboutDescription";
+import FeaturesSection from "./components/FeatureSection";
+import AboutDescription from "./components/AboutDescription";
 import Footer from "../layout/footer";
+import { useScrollReveal } from "../lib/useScrollReveal";
+import AboutSection from "./components/AboutSection";
+import Contact from "../Contact";
 
 export default function page() {
+  useScrollReveal()
   
   return (
     <>
@@ -112,7 +116,7 @@ export default function page() {
         shadow-[0_20px_80px_rgba(0,0,0,0.6)]">
 
         {/* LEFT CONTENT */}
-        <div>
+        <div className="reveal" data-reveal='left'>
 
           <div className="flex items-center gap-2 text-sm mb-6">
             <div className="w-3 h-3 bg-green-400 rounded-full"></div>
@@ -163,7 +167,7 @@ export default function page() {
         </div>
 
         {/* RIGHT CHAT MOCKUP */}
-        <div className="relative">
+        <div className="relative reveal" data-reveal='right'>
 
           <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-6 w-full max-w-md ml-auto">
 
@@ -198,6 +202,10 @@ export default function page() {
       <AboutDescription/>
     </section>
 
+     <section>
+      <AboutSection/>
+    </section>
+
     <section>
       <AboutStats/>
     </section>
@@ -205,19 +213,17 @@ export default function page() {
     <section>
       <ComparisonSection/>
     </section>
-
-    <section>
-      <VideoSlider/>
-    </section>
-    
-    <section>
-      <AboutSolution/>
-    </section>
-
+  
     <section>
       <FeaturesSection/>
     </section>
 
+    <section>
+      <AboutSolution/>
+    </section>
+    <section>
+      <Contact/>
+    </section>
 
     <Footer/>
 

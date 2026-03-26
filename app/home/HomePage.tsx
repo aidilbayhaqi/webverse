@@ -1,20 +1,24 @@
 import React from 'react'
-import HeroSection from './HeroSection/HeroSection'
-import AboutSection from './aboutHome/AboutSection'
-import About from './aboutHome/AiAbout'
-import Contact from './Contact'
+import HeroSection from './components/HeroSection/HeroSection'
+import AboutSection from '../about/components/AboutSection'
+import About from './components/aboutHome/AiAbout'
+import Contact from '../Contact'
+import Navbar from '../layout/navbar'
+import VideoSlider from './components/aboutHome/VideoAbout'
 
 const HomePage = () => {
   return (
+
+    <>
+    <Navbar/>
    <div className="">
     <HeroSection/>
-    <AboutSection/>
+    <VideoSlider/>
     <About/>
     <Contact/>
-
     
    </div>
-    
+    </>
   )
 }
 

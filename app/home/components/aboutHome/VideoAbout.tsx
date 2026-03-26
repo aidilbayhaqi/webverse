@@ -22,7 +22,7 @@ export default function VideoSlider() {
   };
 
   return (
-    <section className="relative w-full min-h-screen bg-[#121212] text-white overflow-hidden flex items-center justify-center">
+    <section className="relative w-full min-h-screen bg-black text-white overflow-hidden flex items-center justify-center">
 
       {/* VIDEO CONTAINER */}
       <div className="relative w-full max-w-6xl px-4">

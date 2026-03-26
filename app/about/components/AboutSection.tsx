@@ -1,14 +1,13 @@
 'use client'
 import Image from "next/image";
-import InfiniteCardCarousel from "../Carousel";
 import { useScrollReveal } from "@/app/lib/useScrollReveal";
-import ScrollShowcase from "../ScrollShowcase/ScrollShowcase";
+import ScrollShowcase from "../../home/components/ScrollShowcase/ScrollShowcase";
 
 export default function AboutSection() {
   useScrollReveal()
   return (
     <>  
-    <section className="relative flex flex-col md:flex-row bg-black text-white px-6 md:px-16 py-16 md:py-28 w-full">
+    <section className="relative flex flex-col md:flex-row bg-[#121212] text-white px-6 md:px-16 py-16 md:py-28 w-full">
 
       {/* Kiri */}
       <div className="w-full md:w-1/2 mb-12 md:mb-0 md:pr-12 reveal" data-reveal="left">
@@ -55,12 +54,10 @@ export default function AboutSection() {
           </button>
         </div>
       </div>
+      
     </section>
 
-     <div className="">
-      <ScrollShowcase/>
-    </div>
-
+     
 
    {/* Bagian bawah icon
 <div className="bg-black text-white text-center text-sm w-full grid grid-cols-2 md:grid-cols-4 gap-8 px-10 md:px-16 pb-16 reveal" data-reveal="left">
@@ -88,9 +85,7 @@ export default function AboutSection() {
 </div> */}
 
     {/* carousel */}
-    {/* <div>
-      <InfiniteCardCarousel/>
-    </div> */}
+   
     </>
   );
 }

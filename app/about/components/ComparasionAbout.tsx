@@ -10,7 +10,7 @@ export default function ComparisonSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 bg-[#121212] p-10">
 
           {/* LEFT - CARA LAMA */}
-          <div className="space-y-8">
+          <div className="space-y-8 reveal" data-reveal='left'>
 
             {/* BADGE */}
             <div className="flex justify-center">
@@ -50,7 +50,7 @@ export default function ComparisonSection() {
           </div>
 
           {/* RIGHT - SMART LEAD */}
-          <div className="space-y-8">
+          <div className="space-y-8 reveal" data-reveal='right'>
 
             {/* BADGE */}
             <div className="flex justify-center">

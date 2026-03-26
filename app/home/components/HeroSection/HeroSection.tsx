@@ -32,13 +32,11 @@ export default function HeroSection() {
     </h1>
   </div>
      <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6">
-      41% Closing Lebih Banyak, Hemat waktu, Biaya Dan Elevate Bisnis  Anda 5X Dengan <span className="text-green-500"> Smart Lead System</span>
+      Automasi Bisnis Anda, Lipat gandakan Profitnya dengan<span className="text-green-500"> Smart Lead System</span>
      </h1>
  
      <p className="text-gray-300 text-center text-sm md:text-lg mb-8">
-      Sistem chatbot otomatis 24/7, Smart Business Website
-      Tangani Kerjaan Admin Secara Otomatis  & Human Like
-  
+      Solusi cerdas untuk manajemen leads dan website otomatis. Hadirkan layanan pelanggan 24/7 tanpa perlu menambah tim admin
      </p>
       {/* Buttons */}
   <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

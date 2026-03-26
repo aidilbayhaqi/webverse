@@ -1,3 +1,4 @@
+'use client'
 export default function Contact() {
   return (
     <section className="relative py-28 px-4 md:px-8 bg-black text-white overflow-hidden">

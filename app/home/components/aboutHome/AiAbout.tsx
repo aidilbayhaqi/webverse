@@ -4,6 +4,7 @@ import React from "react";
 import { FiCheckCircle, FiClock, FiZap } from "react-icons/fi";
 import ErpDashboard from "./AIandERPAbout";
 import PortofolioAbout from "./PortofolioAbout";
+import ScrollShowcase from "../ScrollShowcase/ScrollShowcase";
 
 type BenefitPoint = {
   title: string;
@@ -90,6 +91,10 @@ const benefits: Benefit[] = [
 const About = () => {
   return (
     <>
+    <div className="">
+      <ScrollShowcase/>
+    </div>
+
     <section className="bg-[#121212] text-white py-20 px-4 md:px-8">
       <div className="max-w-5xl mx-auto">
 
